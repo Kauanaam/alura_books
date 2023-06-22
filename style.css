@@ -4,8 +4,27 @@
     body{
     background-color:var(--cor-de-fundo);
     }
-    h1{
-    font-size: 100px;
-    text-align: center;
-    background-color: rgb(241, 27, 20);
-    }
+  .cabecalho-menu-hamburguer{
+    width: 24px;
+height: 24px;
+background-image: url(./img/menu.svg);
+background-repeat: no-repeat;
+background-position: center;
+display: inline-block;
+  }
+.cabecalho{
+  background-color: rgba(90, 84, 84, 0.479);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.container{
+  display: flex;
+  align-items: center;
+}
+.container_imagem{
+  padding: 1em;
+  margin: 1em;
+  width: 5em;
+}
