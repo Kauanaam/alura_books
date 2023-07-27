@@ -1,12 +1,15 @@
 :root{
-    --cor-de-fundo:#ffffff;
-    --branco:#ffffff;
-    --laranja:#eb9b00;
+    --cor-de-fundo:#f7f4f4;
+    --preto:#0a0808;
+    --laranja:#f7901a;
     --azul-degrade:linear-gradient(97, 54deg,#002f52 165,37%)
     --fonte-principal:"poppins"
 }
   body{
     background-color:var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 1em;
+    font-weight: 700;
     }
   .cabecalho-menu-hamburguer{
   width: 24px;
@@ -41,30 +44,33 @@
   top: 100%;
   width: 20vw;
 }
-.lista-menu_titulo,
-.lista-menu_item{
+.lista-menu-titulo,
+.lista-menu-item{
   padding: 1em;
-  background-color: var(--branco);
-}
-.lista-menu_titulo{
-  color: var(--laranja);
+  background-color: white;}
+
+.lista-menu-titulo{
+  color: black;
   font-weight: 700;
 }
 .lista-menu_link{
-  background: var(--azul-dedegrade);
+  background: var(--preto);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color:transparent;
   background-clip: text;
   text-transform: uppercase;
 }
 .container_botao{
   display: none;
 }
+.lista-menu{
+  display: none;
+}
 .banner{
- background-color: rgb(7, 7, 88);
-  color: var(--branco);
-  font-size: 30px;
-  text-align: center;
+ background-color: rgb(85, 80, 80);
+ color: var(--branco);
+ font-size: 30px;
+ text-align: center;
 }
 .banner-titulo{
   font-size: 30px;
@@ -72,6 +78,27 @@
 }
 .banner-texto{
   font-weight: 500;
+}
+.banner-pesquisa{
+  background-color: transparent;
+  border: 1px solid var(--cor-de-fundo);
+  color: black;
+  border-radius: 24px;
+  padding: 1em;
+  width: 100%;
+  text-align: center;
+  background: url("./img/lupa.svg") no-repeat;
+  background-position: 1em;
+  font-size: 20px;
+}
+.carrossel-titulo{
+  color: #f7901a;
+  background-color: #f7f4f4;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 1em 0 .05em 0;
 }
 
 
