@@ -101,4 +101,9 @@
   padding: 1em 0 .05em 0;
 }
 
+.swiper-slide img {
+  width: 80%;
+
+}
+
 
