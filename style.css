@@ -109,7 +109,12 @@
 .card-descriçao{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 10px;
+  margin-bottom: 1em;
+  font-size: 20px;
+}
+.descricao-titulo{
+  color: #cc231d;
+  font-size: 20px;
 }
 .card-botoes{
   display: flex;
@@ -122,19 +127,61 @@
   background: #e9e3e3;
   border-radius: 10px;
   display: center;
-  align-items: center;
+  text-align: center;
   padding: 2em;
   margin: 2em;
 }
 .titulo-mais-vendidos{
 color: #f7901a;
-  background-color: #f7f4f4;
+  background-color: #ffffff;
   text-align: center;
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 700;
   padding: 1em 0 .05em 0;
 }
+.botoes-item{
+  margin: 10px 15px;
+}
+ .botoes-ancora{
+  background-color: rgb(211, 211, 211);
+  padding: 1em;
+  margin: 1em 1em;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none;
+  margin: 5px;
+ }
+.descricao{
+  font-size: 26px;
+}
+.topicos{
+  background: #a5a3a3;
+  text-align: center;
+  padding: 2em;
+  margin: 2em;
+}
+.titulo-topicos{
+  color: #000000;
+  font-size: 500;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 2em;
+}
+.titulo-lista{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.topicos-link{
+  color: #000000;
+  padding: 1em;
+  background-color: var(--laranja);
+  font-size: 14px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
 
 
 
