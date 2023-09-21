@@ -126,10 +126,9 @@
 .card{
   background: #e9e3e3;
   border-radius: 10px;
-  display: center;
   text-align: center;
-  padding: 2em;
-  margin: 2em;
+  padding: 2em 5em;
+  margin: 2em 10em;
 }
 .titulo-mais-vendidos{
 color: #f7901a;
@@ -181,7 +180,34 @@ color: #f7901a;
   margin: 5px;
   border-radius: 10px;
 }
-
-
+.rodape{
+  background-color: #a5a3a3;
+  text-align: center;
+  border-radius: 20px;
+  padding: 2em;
+  margin: 15px;
+}
+.contato-titulo{
+  color: #000000;
+  font-size:2em;
+}
+.contato-texto{
+  color: #000000;
+  font-size: 1em;
+}
+.contato-email{
+  padding: 1em;
+  border-radius: 2em;
+  text-align: center;
+  border: 2px solid var(--laranja);
+  width: 20%;
+  color: #000000;
+}
+.contato-email::placeholder{
+  font-family: 'Times New Roman', Times, serif;
+  color: #000000;
+  background: url(./img/email.svg)no-repeat;
+  background-position: 0;
+}
 
 
